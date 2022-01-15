@@ -1,0 +1,69 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
+ 
+  /* styles  */
+.header{
+    margin-left: 80px;
+}
+body{
+    font-family: 'Poppins', sans-serif;;
+    background-color: white;
+    
+    
+}
+.start{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 80px;
+    
+}
+.click{
+    font-size: small;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    background-color: #E02C6D;
+    border-radius: 20px;
+    padding: 8px 20px;
+} 
+.logos{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-left: 60px;
+}
+/* courses info */
+.collection{
+    text-align: center;
+}
+
+.container{
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 180px;
+  grid-column-gap: 15px;
+  
+
+
+}
+.rating{
+    color: goldenrod;
+}
+.more-info {
+    display: inline-block;
+    text-align: right;
+    font-weight: 700;
+    font-style: italic;
+    color:  #E02C6D;
+    width: 85%;
+}
+
+
+/* footer */
+
+.end-line{
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    background-color: black;
+    color: white;
+
